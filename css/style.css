@@ -5,6 +5,12 @@ body, html {
     font-family: Roboto;
 }
 
+#vn{
+    padding-right: 30px;
+    float: right;
+    color: #9B9B9B;
+}
+
 .bg {
     /* The image used */
     background-image: url("images/home4.jpg");
