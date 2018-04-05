@@ -2,7 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     background-color: #FFFFFF;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 #vn{
