@@ -93,7 +93,7 @@ body, html {
 }
 .giant1 {
     position: absolute;
-    margin-left: 300px;
+    margin-left: 25%;
     font-family: Arial;
     color: #353535;
     font-size: 200px;
@@ -103,10 +103,9 @@ body, html {
 
 .giant2 {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    margin-top: 200px;
     transform: translate(-50%, -50%);
-    font-family: Roboto-bold;
+    font-family: Arial;
     color: #E8E8E8;
     font-size: 200px;
 }
