@@ -2,7 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     background-color: #FFFFFF;
-    font-family: Helvetica;
+    font-family: Roboto;
 }
 
 .bg {
@@ -55,7 +55,7 @@ body, html {
     bottom: 30%;
     left: 13%;
     font-size: 90px;
-    font-family: Helvetica-bold;
+    font-family: Roboto-bold;
     color: #2d2d2d;
 }
 
@@ -65,7 +65,7 @@ body, html {
     bottom: 25%;
     left: 13%;
     font-size: 40px;
-    font-family: Helvetica-light;
+    font-family: Roboto-light;
     color: #2d2d2d;
 }
 
@@ -74,7 +74,7 @@ body, html {
     bottom: 250px;
     left: 205px;
     font-size: 20px;
-    font-family: Helvetica-light;
+    font-family: Roboto-light;
     color: #545454;
 }
 
@@ -87,7 +87,7 @@ body, html {
 .giant1 {
     position: absolute;
     margin-left: 300px;
-    font-family: Helvetica-bold;
+    font-family: Roboto-bold;
     color: #353535;
     font-size: 200px;
     z-index: 999;
@@ -99,7 +99,7 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: Helvetica-bold;
+    font-family: Roboto-bold;
     color: #E8E8E8;
     font-size: 200px;
 }
@@ -167,7 +167,7 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 20px;
-    font-family: Helvetica;
+    font-family: Roboto;
     color: #282828;
     transition: color 2s;
     padding-bottom: 20px;
@@ -205,7 +205,7 @@ body, html {
     color: white;
     padding-top: 12px;
     padding-right: 80px;
-    font-family: Helvetica-light;
+    font-family: Roboto-light;
 }
 
 #keystonei{
@@ -222,7 +222,7 @@ body, html {
 
 #quiz{
     font-size: 30px;
-    font-family: Helvetica-bold;
+    font-family: Roboto-bold;
 }
 
 #quiztext{
