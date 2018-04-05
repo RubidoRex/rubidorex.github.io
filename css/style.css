@@ -3,7 +3,7 @@ body, html {
     height: 100%;
     margin: 0;
     background-color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial;
 }
 
 #vn{
@@ -62,7 +62,7 @@ body, html {
     bottom: 30%;
     left: 13%;
     font-size: 90px;
-    font-family: Roboto-bold;
+    font-family: Arial;
     color: #2d2d2d;
 }
 
@@ -72,7 +72,7 @@ body, html {
     bottom: 25%;
     left: 13%;
     font-size: 40px;
-    font-family: Roboto-light;
+    font-family: Arial;
     color: #2d2d2d;
 }
 
