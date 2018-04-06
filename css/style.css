@@ -6,11 +6,18 @@ body, html {
     font-family: Arial;
 }
 
+#icon{
+    padding-right: 100px;
+    float: right;
+}
+
 #vn{
     padding-right: 30px;
     float: right;
     color: #9B9B9B;
 }
+
+
 
 .bg {
     /* The image used */

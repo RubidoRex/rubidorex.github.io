@@ -5,6 +5,11 @@ body, html {
     background-color: #FFFFFF;
 }
 
+#icon{
+    padding-right: 100px;
+    float: right;
+}
+
 #vn{
     padding-right: 30px;
     float: right;
