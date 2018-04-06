@@ -2,7 +2,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    background-color: #FFFFFF;
+    background-color: #212121;
 }
 
 #icon{
@@ -166,7 +166,7 @@ body, html {
     margin: 0 auto;
     width: 100%;
     height: 80px;
-    background: #FFFFFF;
+    background: #EDEDED;
     opacity: 1;
     -webkit-transition: width 2s;
     transition: width 2s;
