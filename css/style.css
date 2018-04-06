@@ -95,7 +95,8 @@ body, html {
 .giant1 {
     position: absolute;
     margin-left: 300px;
-    font-family: Roboto-bold;
+    font-family: Arial;
+    font-weight: bold;
     color: #353535;
     font-size: 200px;
     z-index: 999;
@@ -107,7 +108,8 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: Roboto-bold;
+    font-family: Arial;
+    font-weight: bold;
     color: #E8E8E8;
     font-size: 200px;
 }
@@ -230,7 +232,8 @@ body, html {
 
 #quiz{
     font-size: 30px;
-    font-family: Roboto-bold;
+    font-family: Arial;
+    font-weight: bold;
 }
 
 #quiztext{
