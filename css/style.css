@@ -233,17 +233,49 @@ body, html {
 #fun{
     height: 600px;
     background-color: #111111;
-    padding-top: 200px;
+    padding-top: 5px;
+    padding-left: 50px;
+    color: white;
+    
 }
 
+
 #quiz{
+    font-size: 22px;
+    font-family: Arial;
+    font-weight: lighter;
+}
+
+          #quiztext{
+          padding-left: 50px;
     font-size: 30px;
     font-family: Arial;
     font-weight: bold;
-}
+          }
+          
+          #after_submit {
+    position: absolute;
+    margin-top: 90px;
+	visibility: hidden;
+	background: #006FC4;
+	padding: 10px 20px 10px 20px;
+	width: 400px;
+	border-radius: 20px;
+	margin-left: 310px;
+	font-size: 30px;
+  color: white;
 
-#quiztext{
-    padding-left: 50px;
+}
+          
+          #button1 {
+	background: #004BA8;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: .5s;
+	margin-top: 15px;
 }
 /*#fun1 {
     position: relative;
