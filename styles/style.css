@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica;
+  font-family: Product Sans;
 	height: 90vh;
 	color: #fff;
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
@@ -46,7 +46,12 @@ body {
 	}
 }
 
-
+@font-face {
+font-family: 'Product Sans';
+font-style: normal;
+font-weight: normal;
+src: local('Product Sans'), url('ProductSans-Regular.woff') format('woff');
+}
 
 h1 {
     padding:10% 0;
@@ -80,6 +85,17 @@ h3{
   border-radius: 15px;
   margin: 0 auto;
   margin-top: 5%;
+}
+
+.logoimg{
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  height: 100px;
+  width: 100px;
+  mix-blend-mode: screen;
+  border-radius: 15px;
+  display:none;
 }
 
 h4{
@@ -121,6 +137,16 @@ h4{
   display:none;
 }
 
+.img3{
+  position: absolute;
+  top: 50%;
+  right: 31.5%;
+  height: 300px;
+  width: 22%;
+  border-radius: 15px;
+  display:none;
+}
+
 .listnum{
   text-align: right;
 }
@@ -140,7 +166,8 @@ h4{
   display:none;
   position: absolute;
   top: 8%;
-  left: 30%
+  text-align: center;
+  margin-left: 31%;
 }
 
 .shape {

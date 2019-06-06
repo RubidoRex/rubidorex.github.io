@@ -4,6 +4,7 @@ $(document).ready(function(){
         setTimeout(function() {
         $(".prep").fadeOut("slow");
         $(".head01").fadeIn(1000);
+        $(".logoimg").fadeIn("slow");
         
         setTimeout(function() {
         $(".shape0").fadeIn("slow");
@@ -47,6 +48,14 @@ $(document).ready(function(){
         $(".shape1").fadeIn("slow");
         }, 600);
         });
+        
+        $(".btm3").mouseover(function(){
+         $(".img3").fadeIn(300);
+        });
+        $(".btm3").mouseleave(function(){
+        $(".img3").fadeOut(300);
+        });
+        
         $(".btm4").click(function(){
         $(".shape1").fadeOut(500);
         $(".pt1").fadeIn(500);
