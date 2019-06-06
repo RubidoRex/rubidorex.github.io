@@ -6,7 +6,7 @@ src: local('Product Sans'), url('ProductSans-Regular.woff') format('woff');
 }
 
 body {
-  font-family:'Roboto', sans-serif;
+  font-family: Product Sans;
 	height: 90vh;
 	color: #fff;
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
