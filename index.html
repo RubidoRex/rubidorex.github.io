@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Shirts and Pants Co.</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script/script.js"></script>
+</head>
+
+<body>
+    <div class="prep">
+        <h1>Best Experienced with Safari.</h1>
+    </div>
+    
+    <div class="head01">
+    <h1>SHIRTS & PANTS CO.</h1>
+    </div>
+    
+    <!--<img class="logoimg"src="images/logo.png">-->
+     
+    <div class="shape shape0">
+        <h2>SHIRTS</h2>
+        <button class="btm1" onclick="shirtcalc1();">SHIRT 01</button>
+        <button class="btm2" onclick="shirtcalc2();">SHIRT 02</button>
+        <button class="btm3" onclick="shirtcalc3();">SHIRT 03</button>
+    </div>
+    
+    <div class="shape shape1">
+        <h2>PANTS</h2>
+        <button class="btm4" onclick="pantscalc1();">PANTS 01</button>
+        <button class="btm5" onclick="pantscalc2();">PANTS 02</button>
+        <button class="btm6" onclick="pantscalc3();">PANTS 03</button>
+    </div>
+    
+    <div class="shape shape2">
+        <h2>SHIPPING</h2>
+        <button class="btm7" onclick="shipcalc1();">STANDARD</button>
+        <button class="btm8" onclick="shipcalc2();">3-DAY</button>
+        <button class="btm9" onclick="shipcalc3();">OVERNIGHT</button>
+    </div>
+
+    <div class="shape shape3">
+        <h2>PRICE</h2>
+        <br>
+        <div id="price">$</div>
+        <center><button class="applepay" lang=en onclick="location.reload();"></button></center>
+    </div>
+    
+    <div class="img">
+        <h2>IMAGE</h2>
+    </div>
+    
+    <img class="img1"src="images/srt1.png">
+    <img class="img2"src="images/srt2.png">
+    <img class="img3"src="images/srt3.png">
+    
+    <div class="plist">
+        <h2>CART</h2>
+        <h4 class="srt1">SHIRT 20$</h4>
+        <h4 class="srt2">SHIRT 30$</h4>
+        <h4 class="srt3">SHIRT 30$</h4>
+        <h4 class="pt1">PANTS 20$</h4>
+        <h4 class="pt2">PANTS 30$</h4>
+        <h4 class="pt3">PANTS 35$</h4>
+        <h4 class="ship1">STANDARD 0$</h4>
+        <h4 class="ship2">3-DAY 5$</h4>
+        <h4 class="ship3">OVERNIGHT 20$</h4>
+    </div>
+    
+    <div class="num">
+        <p id="srt"></p>
+        <p id="pt"></p>
+        <p id="ship"></p>
+    </div>
+    
+</body>
+</html>
