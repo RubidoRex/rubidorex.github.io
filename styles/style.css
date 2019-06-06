@@ -7,7 +7,7 @@ src: local('Product Sans'), url('ProductSans-Regular.woff') format('woff');
 
 body {
   font-family: Product Sans;
-	height: 90vh;
+	height: 700px;
 	color: #fff;
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	background-size: 400% 400%;
@@ -120,7 +120,7 @@ h4{
 
 .img1{
   position: absolute;
-  top: 50%;
+  top: 53%;
   right: 31.5%;
   height: 300px;
   width: 22%;
@@ -130,7 +130,7 @@ h4{
 
 .img2{
   position: absolute;
-  top: 50%;
+  top: 53%;
   right: 31.5%;
   height: 300px;
   width: 22%;
@@ -140,7 +140,7 @@ h4{
 
 .img3{
   position: absolute;
-  top: 50%;
+  top: 53%;
   right: 31.5%;
   height: 300px;
   width: 22%;
