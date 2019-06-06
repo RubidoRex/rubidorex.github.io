@@ -120,30 +120,30 @@ h4{
 
 .img1{
   position: absolute;
-  top: 53%;
+  top: 51%;
   right: 31.5%;
   height: 300px;
-  width: 22%;
+  width: 300px;
   border-radius: 15px;
   display:none;
 }
 
 .img2{
   position: absolute;
-  top: 53%;
+  top: 51%;
   right: 31.5%;
   height: 300px;
-  width: 22%;
+  width: 300px;
   border-radius: 15px;
   display:none;
 }
 
 .img3{
   position: absolute;
-  top: 53%;
+  top: 51%;
   right: 31.5%;
   height: 300px;
-  width: 22%;
+  width: 300px;
   border-radius: 15px;
   display:none;
 }
@@ -294,6 +294,7 @@ h4{
 .ship3{
   display:none;
 }
+
 .btm2{
   border: none;
   color: white;
