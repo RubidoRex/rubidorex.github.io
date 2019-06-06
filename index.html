@@ -2,146 +2,74 @@
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Ewaste</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-<script>
-                // When the user scrolls down 20px from the top of the document, show the button
-                window.onscroll = function() {scrollFunction()};
-
-                function scrollFunction() {
-                        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                        document.getElementById("myBtn").style.display = "block";
-                } else {
-                        document.getElementById("myBtn").style.display = "none";
-                        }
-                }
-
-        // When the user clicks on the button, scroll to the top of the document
-                function topFunction() {
-                        document.body.scrollTop = 0;
-                document.documentElement.scrollTop = 0;
-                }
-                
-                //Quiz Func
-
-function check(){
-
-	var question1 = document.quiz.question1.value;
-	var question2 = document.quiz.question2.value;
-	var question3 = document.quiz.question3.value;
-	var correct = 0;
-
-
-	if (question1 == "Ewaste"||"ETRwaste") {
-		correct++;
-}
-	if (question2 == "Mobile") {
-		correct++;
-}	
-	if (question3 == "Cancer"||"Animaldead"||"Die") {
-		correct++;
-	}
-	
-	var messages = ["Well Done", "You can do better", "You really need to learn more"];
-	var score;
-
-	if (correct == 0) {
-		score = 2;
-	}
-
-	if (correct > 0 && correct < 3) {
-		score = 1;
-	}
-
-	if (correct == 3) {
-		score = 0;
-	}
-
-	document.getElementById("after_submit").style.visibility = "visible";
-
-	document.getElementById("message").innerHTML = messages[score];
-	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
-	}
-    
-//Stop
-                
-</script>
-<style>
-      body {
-        font-family: 'Roboto', sans-serif;
-      }
-</style>
+    <title>Shirts and Pants Co.</title>
+    <link rel="stylesheet" type="text/css" href="styles/stylev2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
-        <div class="navbar">
-            <a href="index.html"><i class="material-icons">polymer</i></a>
-            <a href="index.html">Home</a>
-            <a href="#quiz">Quiz</a>
-            <a href="https://keystone.stpeters.sa.edu.au/pages/mytasks.aspx" target="_blank">Me Task</a>
-            <a id="icon" href="index2.html"><i class="material-icons">brightness_3</i></a>
-            <p id="vn">V1.2.1</p>
-        </div>
-        <div class="bg">
-            <div class="centered"><p class="w3-center w3-animate-top"> <i class="material-icons"></i>Hello E-Waste</p></div>
-            <div class="dcentered"><p class="w3-center w3-animate-top">Website Creation</p></div>
-            <div class="bcentered"><p class="w3-center w3-animate-top"></p></div>
-            <!--<div class="giant1"><p>Projects</p></div>-->
-            <div class="square"></div>
-        </div>
-        
-        <div id="testcolor">
-        <div id="test">
-            <a href="#quiz" id="hello"><i class="material-icons">arrow_downward</i></a>
-        </div>
-        </div>
-        <div class="giant1"><p>Projects</p></div>
-        <div class="bg2"></div>
-        
-        
-        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="material-icons">keyboard_arrow_up</i></button>
+    <div class="prep">
+        <h1>Best Experienced with Safari.</h1>
+    </div>
+    
+    <div class="head01">
+    <h1>SHIRTS & PANTS CO.</h1>
+    </div>
+     
+    <div class="shape shape0">
+        <h2>SHIRTS</h2>
+        <button class="btm1" onclick="shirtcalc1();">Shirt-01</button>
+        <button class="btm2" onclick="shirtcalc2();">Shirt-02</button>
+        <button class="btm3" onclick="shirtcalc3();">Shirt-03</button>
+    </div>
+    
+    <div class="shape shape1">
+        <h2>PANTS</h2>
+        <button class="btm4" onclick="pantscalc1();">Pants-01</button>
+        <button class="btm5" onclick="pantscalc2();">Pants-02</button>
+        <button class="btm6" onclick="pantscalc3();">Pants-03</button>
+    </div>
+    
+    <div class="shape shape2">
+        <h2>SHIPPING</h2>
+        <button class="btm7" onclick="shipcalc1();">Standard</button>
+        <button class="btm8" onclick="shipcalc2();">3-day</button>
+        <button class="btm9" onclick="shipcalc3();">Overnight</button>
+    </div>
 
-        <div id= "quiz" style="background-color:#1E1E1E;color:white;padding:10px"><p id= "quiztext">QUIZ</p></div>
-        <div id= "fun">
-            <form id = "quiz" name = "quiz">
-
-
-                <p class = "questions">What is EWaste?</p>
-                <input type = "radio" id = "mc" name = "question1" value = "Ewaste"> Electronic Waste<br>
-                <input type = "radio" id = "mc" name = "question1" value = "ETRwaste"> Electrical Waste<br>
-                <input type = "radio" id = "mc" name = "question1" value = "ETCwaste"> Electric Waste<br>
-
-                <p class = "questions">Which one is EWaste?</p>
-                <input type = "radio" id = "mc" name = "question2" value = "Rubber"> Rubber Ducky<br>
-                <input type = "radio" id = "mc" name = "question2" value = "Pencil"> Pencil<br>
-                <input type = "radio" id = "mc" name = "question2" value = "Mobile"> Mobile Phones<br>
-
-                <p class = "questions">What is the potential consquence?</p>
-                <input type = "radio" id = "mc" name = "question3" value = "Die"> Damaging enviroment<br>
-                <input type = "radio" id = "mc" name = "question3" value = "Cancer"> Cancer<br>
-                <input type = "radio" id = "mc" name = "question3" value = "Animaldead"> Animal Dying<br>
-
-
-                <input id = "button1" type = "button" value = "Submit!" onclick = "check();">
-
-            </form>
-        </div>
-        
-        <div id = "after_submit">
-            <p id = "number_correct"></p>
-            <p id = "message"></p>
-            </div>
-        
-        <div class="bg"></div>
-        <div class="onbg">
-                <a id= "keystonei" href="https://keystone-apps.stpeters.sa.edu.au/home" target="_blank"><img src="https://keystone-apps.stpeters.sa.edu.au/images/ks.png" alt="Keystone" width= "141" height="40"></a>
-                <p id="tpc"> Not Copyright 2018 Harrison Lan</p>
-        </div>
-        
+    <div class="shape shape3">
+        <h2>PRICE</h2>
+        <br>
+        <div id="price">$</div>
+        <center><button class="applepay" lang=en onclick="location.reload();"></button></center>
+    </div>
+    
+    <div class="img">
+        <h2>IMAGE</h2>
+    </div>
+    
+    <img class="img1"src="styles/images/srt1.png">
+    <img class="img2"src="styles/images/srt2.png">
+    
+    <div class="plist">
+        <h2>CART</h2>
+        <h4 class="srt1">Shirt-01 20$</h4>
+        <h4 class="srt2">Shirt-02 30$</h4>
+        <h4 class="srt3">Shirt-03 30$</h4>
+        <h4 class="pt1">Pants-01 20$</h4>
+        <h4 class="pt2">Pants-02 30$</h4>
+        <h4 class="pt3">Pants-03 35$</h4>
+        <h4 class="ship1">Standard 0$</h4>
+        <h4 class="ship2">3-day 5$</h4>
+        <h4 class="ship3">Overnight 20$</h4>
+    </div>
+    
+    <div class="num">
+        <p id="srt">1</p>
+        <p id="pt">2</p>
+        <p id="ship">3</p>
+    </div>
+    
 </body>
 </html>
