@@ -1,13 +1,9 @@
-@font-face {
-font-family: 'Product Sans';
-font-style: normal;
-font-weight: normal;
-src: local('Product Sans'), url('ProductSans-Regular.woff') format('woff');
-}
-
-body {
-  font-family: Product Sans;
-	height: 700px;
+html{
+  position:fixed;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
 	color: #fff;
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	background-size: 400% 400%;
@@ -16,6 +12,27 @@ body {
 	animation: Gradient 13s ease infinite;
 }
 
+@font-face {
+font-family: 'Product Sans';
+font-style: normal;
+font-weight: normal;
+src: local('Product Sans'), url('ProductSans-Regular.woff') format('woff');
+}
+
+body {
+  position:fixed;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  font-family: Product Sans;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 13s ease infinite;
+	-moz-animation: Gradient 13s ease infinite;
+	animation: Gradient 13s ease infinite;
+}
 
 @-webkit-keyframes Gradient {
 	0% {
@@ -195,6 +212,14 @@ h4{
   display:none;
 }
 
+.payimg{
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 40%;
+  height: 50px;
+  width: 75px;
+  cursor: pointer;
+}
 
 .listnum{
   text-align: right;
@@ -207,12 +232,12 @@ h4{
 .prep{
   display:none;
   margin: auto;
-  padding-top: 25%;
+  padding-top: 23%;
 }
 
 .head01 {
   display:none;
-  position: absolute;
+  position: fixed;
   top: 8%;
   text-align: center;
   margin-left: 31%;
@@ -228,10 +253,6 @@ h4{
   border-radius: 20px;
   display:none;
   mix-blend-mode: screen;
-}
-
-.shape3{
-  
 }
 
 .plist{
