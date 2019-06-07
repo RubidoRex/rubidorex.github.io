@@ -180,6 +180,36 @@ h4{
   display:none;
 }
 
+.img4{
+  position: absolute;
+  top: 51%;
+  right: 31.5%;
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+  display:none;
+}
+
+.img5{
+  position: absolute;
+  top: 51%;
+  right: 31.5%;
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+  display:none;
+}
+
+.img6{
+  position: absolute;
+  top: 51%;
+  right: 31.5%;
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+  display:none;
+}
+
 .img7{
   position: absolute;
   top: 43%;
@@ -232,7 +262,7 @@ h4{
 .prep{
   display:none;
   margin: auto;
-  padding-top: 23%;
+  padding-top: 21%;
 }
 
 .head01 {
