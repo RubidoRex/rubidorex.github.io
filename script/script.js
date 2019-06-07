@@ -128,27 +128,27 @@ $(document).ready(function(){
         });
 
 function shirtcalc1(){
-        document.getElementById("srt").innerHTML = 20;
+        document.getElementById("srt").innerHTML = 19;
 }
 
 function shirtcalc2(){
-        document.getElementById("srt").innerHTML = 30;
+        document.getElementById("srt").innerHTML = 39;
 }
 
 function shirtcalc3(){
-        document.getElementById("srt").innerHTML = 35;
+        document.getElementById("srt").innerHTML = 89;
 }
 
 function pantscalc1(){
-        document.getElementById("pt").innerHTML = 20;
+        document.getElementById("pt").innerHTML = 39;
 }
 
 function pantscalc2(){
-        document.getElementById("pt").innerHTML = 30;
+        document.getElementById("pt").innerHTML = 59;
 }
 
 function pantscalc3(){
-        document.getElementById("pt").innerHTML = 35;
+        document.getElementById("pt").innerHTML = 79;
 }
 
 function shipcalc1(){
