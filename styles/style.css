@@ -138,6 +138,53 @@ h4{
   color: #212121;
 }
 
+.nonbtm1{
+  border: none;
+  color: white;
+  height: 50px;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #C1C1C1;
+}
+
+.nonbtm2{
+  border: none;
+  color: white;
+  height: 50px;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #C1C1C1;
+}
+
+.nonbtm3{
+  border: none;
+  color: white;
+  height: 50px;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #C1C1C1;
+}
 .img{
   position: absolute;
   top: 40%;
@@ -268,16 +315,16 @@ h4{
 .head01 {
   display:none;
   position: fixed;
-  top: 8%;
+  top: 5%;
   text-align: center;
   margin-left: 31%;
 }
 
 .shape {
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 10%;
-  height: 410px;
+  height: 480px;
   width: 30%;
   background-color: #FFFFFF;
   border-radius: 20px;

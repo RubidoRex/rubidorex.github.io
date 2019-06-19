@@ -12,14 +12,15 @@ $(document).ready(function(){
         $(".img").fadeIn("slow");
         }, 500);
         
+        /*button 1*/
         $(".btm1").click(function(){
         $(".shape0").fadeOut(500);
         $(".srt1").fadeIn(500);
-        
         setTimeout(function() {
         $(".shape1").fadeIn("slow");
         }, 600);
         });
+        /*button 1 Hover*/
         $(".btm1").mouseover(function(){
          $(".img1").fadeIn(300);
         });
@@ -27,6 +28,7 @@ $(document).ready(function(){
         $(".img1").fadeOut(300);
         });
        
+        /*button 2*/
         $(".btm2").click(function(){
         $(".shape0").fadeOut(500);
         $(".srt2").fadeIn(500);
@@ -34,6 +36,7 @@ $(document).ready(function(){
         $(".shape1").fadeIn("slow");
         }, 600);
         });
+        /*button 2 Hover*/
         $(".btm2").mouseover(function(){
         $(".img2").fadeIn(300);
         });
@@ -54,6 +57,14 @@ $(document).ready(function(){
         });
         $(".btm3").mouseleave(function(){
         $(".img3").fadeOut(300);
+        });
+        
+        /*No Selection*/
+        $(".nonbtm1").click(function(){
+        $(".shape0").fadeOut(500);
+        setTimeout(function() {
+        $(".shape1").fadeIn("slow");
+        }, 600);
         });
         
         $(".btm4").click(function(){
@@ -77,6 +88,15 @@ $(document).ready(function(){
         $(".shape2").fadeIn("slow");
         }, 600);
         });
+        
+        /*No Selection*/
+        $(".nonbtm2").click(function(){
+        $(".shape1").fadeOut(500);
+        setTimeout(function() {
+        $(".shape2").fadeIn("slow");
+        }, 600);
+        });
+        
         $(".btm7").click(function(){
         $(".shape2").fadeOut(500);
         $(".ship1").fadeIn(500);
@@ -124,6 +144,14 @@ $(document).ready(function(){
         $(".img9").fadeOut(300);
         });
         
+        /*No Selection*/
+        $(".nonbtm3").click(function(){
+        $(".shape2").fadeOut(500);
+        setTimeout(function() {
+        $(".shape3").fadeIn("slow");
+        }, 600);
+        });
+        
         }, 2000);
         });
 
@@ -150,6 +178,7 @@ function pantscalc2(){
 function pantscalc3(){
         document.getElementById("pt").innerHTML = 79;
 }
+
 
 function shipcalc1(){
         document.getElementById("ship").innerHTML = 0;
