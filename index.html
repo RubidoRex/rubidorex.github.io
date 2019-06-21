@@ -9,16 +9,17 @@
 </head>
 
 <body>
+    <!-- Pre Header-->
     <div class="prep">
         <h3>Best Experienced in Fullscreen.</h3>
     </div>
     
+    <!-- Header-->
     <div class="head01">
     <h1>SHIRTS & PANTS CO.</h1>
     </div>
     
-    <!--<img class="logoimg"src="images/logo.png">-->
-     
+    <!-- First Selection Plane fades in, fades out after selection.--> 
     <div class="shape shape0">
         <h2>SHIRTS</h2>
         <button class="btm1 hvr-fade" onclick="shirtcalc1();">MATTE BLACK EVERYTHING TEE</button>
@@ -27,6 +28,7 @@
         <button class="nonbtm1 hvr-fade">NO SHIRT</button>
     </div>
     
+    <!-- Second Selection Plane fades in, fades out after selection.--> 
     <div class="shape shape1">
         <h2>PANTS</h2>
         <button class="btm4 hvr-fade" onclick="pantscalc1();">PANTS 01</button>
@@ -35,14 +37,16 @@
         <button class="nonbtm2 hvr-fade">NO PANTS</button>
     </div>
     
+    <!-- Third Selection Plane fades in, fades out after selection.--> 
     <div class="shape shape2">
         <h2>SHIPPING</h2>
         <button class="btm7 hvr-fade" onclick="shipcalc1();">STANDARD</button>
         <button class="btm8 hvr-fade" onclick="shipcalc2();">3-DAY</button>
         <button class="btm9 hvr-fade" onclick="shipcalc3();">OVERNIGHT</button>
-        <button class="nonbtm3 hvr-fade">CONTACT SELLER</button>
+        <button class="nonbtm3 hvr-fade" onclick="location.reload();">RESTART</button>
     </div>
-
+    
+    <!-- Price Plane fades in, pay button to restart.--> 
     <div class="shape shape3">
         <h2>PRICE</h2>
         <br>
@@ -51,6 +55,7 @@
         <img class="payimg" src="images/applepay.png" onclick="location.reload();">
     </div>
     
+    <!-- Center Plane, preview the images.--> 
     <div class="img">
         <h2>PREVIEW</h2>
         <img class="img7"src="images/bike.png">
@@ -59,6 +64,7 @@
         <br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
     
+    <!-- All the images and their div.--> 
     <img class="img1"src="images/srt1.png">
     <img class="img2"src="images/srt2.png">
     <img class="img3"src="images/srt3.png">
@@ -66,9 +72,10 @@
     <img class="img5"src="images/pants2.png">
     <img class="img6"src="images/pants3.png">
 
-    
+    <!-- Right Plane shows the items selected.--> 
     <div class="plist">
         <h2>CART</h2>
+        <h4 class="adminfee">ADMIN FEE A$40</h4>
         <h4 class="srt1">SHIRT A$19</h4>
         <h4 class="srt2">SHIRT A$39</h4>
         <h4 class="srt3">HOODIE A$89</h4>
@@ -79,7 +86,7 @@
         <h4 class="ship2">3-DAY A$5</h4>
         <h4 class="ship3">OVERNIGHT A$20</h4>
     </div>
-    
+    <!-- Hidden from user, for calculating the price.--> 
     <div class="num">
         <p id="srt">0</p>
         <p id="pt">0</p>

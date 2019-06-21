@@ -1,3 +1,4 @@
+/* JQuery animations such as fade in and outs*/
 $(document).ready(function(){
         $(".prep").fadeIn("slow");
         
@@ -11,6 +12,7 @@ $(document).ready(function(){
         $(".plist").fadeIn("slow");
         $(".img").fadeIn("slow");
         }, 500);
+        $(".adminfee").fadeIn(500);
         
         /*button 1*/
         $(".btm1").click(function(){
@@ -74,6 +76,14 @@ $(document).ready(function(){
         $(".shape2").fadeIn("slow");
         }, 600);
         });
+        
+        $(".btm4").mouseover(function(){
+        $(".img4").fadeIn(300);
+        });
+        $(".btm4").mouseleave(function(){
+        $(".img4").fadeOut(300);
+        });
+        
         $(".btm5").click(function(){
         $(".shape1").fadeOut(500);
         $(".pt2").fadeIn(500);
@@ -81,6 +91,14 @@ $(document).ready(function(){
         $(".shape2").fadeIn("slow");
         }, 600);
         });
+        
+        $(".btm5").mouseover(function(){
+         $(".img5").fadeIn(300);
+        });
+        $(".btm5").mouseleave(function(){
+        $(".img5").fadeOut(300);
+        });
+        
         $(".btm6").click(function(){
         $(".shape1").fadeOut(500);
         $(".pt3").fadeIn(500);
@@ -88,6 +106,14 @@ $(document).ready(function(){
         $(".shape2").fadeIn("slow");
         }, 600);
         });
+        
+        $(".btm6").mouseover(function(){
+         $(".img6").fadeIn(300);
+        });
+        $(".btm6").mouseleave(function(){
+        $(".img6").fadeOut(300);
+        });
+       
         
         /*No Selection*/
         $(".nonbtm2").click(function(){
@@ -155,6 +181,7 @@ $(document).ready(function(){
         }, 2000);
         });
 
+/* Sets the price for the item selected.*/
 function shirtcalc1(){
         document.getElementById("srt").innerHTML = 19;
 }
@@ -179,7 +206,7 @@ function pantscalc3(){
         document.getElementById("pt").innerHTML = 79;
 }
 
-
+/* The final calculation that adds up everything.*/
 function shipcalc1(){
         document.getElementById("ship").innerHTML = 0;
         var num1 = document.getElementById("srt").innerHTML;
@@ -188,7 +215,7 @@ function shipcalc1(){
         num2 = parseInt(num2);
         var num3 = document.getElementById("ship").innerHTML;
         num3 = parseInt(num3);
-        var total = num1 + num2 + num3;
+        var total = num1 + num2 + num3 + 40;
         document.getElementById("price").innerHTML = "A$" + total;
 }
 
@@ -200,7 +227,7 @@ function shipcalc2(){
         num2 = parseInt(num2);
         var num3 = document.getElementById("ship").innerHTML;
         num3 = parseInt(num3);
-        var total = num1 + num2 + num3;
+        var total = num1 + num2 + num3 + 40;
         document.getElementById("price").innerHTML = "A$" + total;
 }
 
@@ -212,6 +239,6 @@ function shipcalc3(){
         num2 = parseInt(num2);
         var num3 = document.getElementById("ship").innerHTML;
         num3 = parseInt(num3);
-        var total = num1 + num2 + num3;
+        var total = num1 + num2 + num3 + 40;
         document.getElementById("price").innerHTML = "A$" + total;
 }
