@@ -8,6 +8,11 @@ h1{
   font-size: 50px;
 }
 
+.h1mini{
+  margin-right: -43%;
+  margin-top:-23%;
+}
+
 .subtitle{
   margin-top: -30px;
 }
@@ -41,7 +46,8 @@ h1{
   border-radius: 15px;
   font-size: 15px;
   cursor: pointer;
-  margin-top: -20px;
+  margin-top: -10px;
+  float: right;
   
 }
 
@@ -66,6 +72,10 @@ h1{
   filter: drop-shadow(0rem 0.5rem 0.5rem #E5E5E5);
 }
 
+.rb2{
+  background: #f5e9dd;
+}
+
 .iPadPromain{
   height: 554px;
   width: 695px;
@@ -84,6 +94,12 @@ h1{
   width: 1150px;
 }
 
+.iPadminimain{
+   height: 500px;
+   margin-top: 4%;
+   margin-right: 50%;
+}
+
 .airtext{
   margin-top: -30%;
   margin-left: -45%;
@@ -92,4 +108,9 @@ h1{
 .subtitleair{
   margin-left: -43%;
   margin-top:-2%;
+}
+
+.subtitlemini{
+  margin-left: 43%;
+  margin-top: -2%;
 }
