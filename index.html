@@ -2,96 +2,37 @@
 
 <html>
 <head>
-    <title>Shirts and Pants Co.</title>
+    <title>Apple</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script type="text/javascript" src="script/script.js"></script>
 </head>
-
 <body>
-    <!-- Pre Header-->
-    <div class="prep">
-        <h3>Best Experienced in Fullscreen.</h3>
-    </div>
-    
-    <!-- Header-->
-    <div class="head01">
-    <h1>SHIRTS & PANTS CO.</h1>
-    </div>
-    
-    <!-- First Selection Plane fades in, fades out after selection.--> 
-    <div class="shape shape0">
-        <h2>SHIRTS</h2>
-        <button class="btm1 hvr-fade" onclick="shirtcalc1();">SHIRT 01</button>
-        <button class="btm2 hvr-fade" onclick="shirtcalc2();">SHIRT 02</button>
-        <button class="btm3 hvr-fade" onclick="shirtcalc3();">HOODIE 03</button>
-        <button class="nonbtm1 hvr-fade">NO SHIRT</button>
-    </div>
-    
-    <!-- Second Selection Plane fades in, fades out after selection.--> 
-    <div class="shape shape1">
-        <h2>PANTS</h2>
-        <button class="btm4 hvr-fade" onclick="pantscalc1();">PANTS 01</button>
-        <button class="btm5 hvr-fade" onclick="pantscalc2();">PANTS 02</button>
-        <button class="btm6 hvr-fade" onclick="pantscalc3();">PANTS 03</button>
-        <button class="nonbtm2 hvr-fade">NO PANTS</button>
-    </div>
-    
-    <!-- Third Selection Plane fades in, fades out after selection.--> 
-    <div class="shape shape2">
-        <h2>SHIPPING</h2>
-        <button class="btm7 hvr-fade" onclick="shipcalc1();">STANDARD</button>
-        <button class="btm8 hvr-fade" onclick="shipcalc2();">3-DAY</button>
-        <button class="btm9 hvr-fade" onclick="shipcalc3();">OVERNIGHT</button>
-        <button class="nonbtm3 hvr-fade" onclick="location.reload();">RESTART</button>
-    </div>
-    
-    <!-- Price Plane fades in, pay button to restart.--> 
-    <div class="shape shape3">
-        <h2>PRICE</h2>
-        <br>
-        <div id="price">$</div>
-        <!--<center><button class="applepay" lang=en onclick="location.reload();"></button></center>-->
-        <img class="payimg" src="images/applepay.png" onclick="location.reload();">
-    </div>
-    
-    <!-- Center Plane, preview the images.--> 
-    <div class="img">
-        <h2>PREVIEW</h2>
-        <img class="img7"src="images/bike.png">
-        <img class="img8"src="images/car.png">
-        <img class="img9"src="images/airplane.png">
-        <br><br><br><br><br><br><br><br><br><br><br><br>
-    </div>
-    
-    <!-- All the images and their div.--> 
-    <img class="img1"src="images/srt1.png">
-    <img class="img2"src="images/srt2.png">
-    <img class="img3"src="images/srt3.png">
-    <img class="img4"src="images/pants1.png">
-    <img class="img5"src="images/pants2.png">
-    <img class="img6"src="images/pants3.png">
 
-    <!-- Right Plane shows the items selected.--> 
-    <div class="plist">
-        <h2>CART</h2>
-        <h4 class="adminfee">ADMIN FEE A$40</h4>
-        <h4 class="srt1">SHIRT A$19</h4>
-        <h4 class="srt2">SHIRT A$39</h4>
-        <h4 class="srt3">HOODIE A$89</h4>
-        <h4 class="pt1">PANTS A$39</h4>
-        <h4 class="pt2">PANTS A$59</h4>
-        <h4 class="pt3">PANTS A$79</h4>
-        <h4 class="ship1">STANDARD A$0</h4>
-        <h4 class="ship2">3-DAY A$5</h4>
-        <h4 class="ship3">OVERNIGHT A$20</h4>
-    </div>
-    <!-- Hidden from user, for calculating the price.--> 
-    <div class="num">
-        <p id="srt">0</p>
-        <p id="pt">0</p>
-        <p id="ship">0</p>
-    </div>
-    
+<br>
+<div class="roundedheader">
+    <button class="homebtm"></button>
+    <button class="menubtm">iPad Pro</button>
+    <button class="menubtm">iPad Air</button>
+    <button class="menubtm">iPad Mini</button>
+    <button class="menubtm">iPad</button>
+</div>
+<br><br>
+<div class="roundedbanner">
+    <img class="iPadPromain" src="images/iPadOS.jpg">
+    <h1>iPad Pro</h1>
+    <p class="subtitle">The most advanced iPad ever.</p>
+</div>
+<br><br>
+<div class="roundedbanner">
+    <img class="iPadAirmain" src="images/iPadAir.jpg">
+    <h1 class="airtext">iPad Air</h1>
+    <p class="subtitleair">Incredible power at an incredible value.</p>
+</div>
+<br><br>
+<div class="roundedbanner">
+    <img class="iPadmain" src="images/iPad.jpg">
+    <h1>iPad</h1>
+    <p class="subtitle">Like a computer. Unlike any computer.</p>
+</div>
+<br><br>
 </body>
 </html>
