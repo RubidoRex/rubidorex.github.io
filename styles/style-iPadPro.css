@@ -1,0 +1,56 @@
+html{
+  background-color: #FFFFFF;
+  font-family: helvetica;
+}
+
+h1{
+  
+}
+
+.AppleHome{
+  background-size: 16px 44px;
+}
+
+.homebtm{
+  color: white;
+  background-color: transparent;
+  border: none;
+  height: 60px;
+  width: 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 30px;
+  margin-top: -13px;
+  cursor: pointer;
+}
+
+.menubtm{
+  color: white;
+  background-color: transparent;
+  border: none;
+  height: 50px;
+  width: 10%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: -10px;
+  float: right;
+  
+}
+
+.roundedheader{
+  border-radius: 15px;
+  background: #2D2D2D;
+  padding: 20px; 
+  width: 90%;
+  height: 30px;
+  margin: auto;
+  font-size: 25px;
+}
