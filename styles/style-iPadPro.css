@@ -1,10 +1,29 @@
 html{
-  background-color: #FFFFFF;
+  background-color: #fafafa;
   font-family: helvetica;
 }
 
 h1{
   
+}
+
+.title{
+  margin-top: -550px;
+  margin-left: 10%;
+  font-size: 100px;
+}
+
+.subtitle{
+  font-size: 30px;
+  color: grey;
+  margin-left: 10%;
+  margin-top: -50px;
+}
+
+.arrowdown{
+  margin-left: 17%;
+  font-size: 30px;
+  color: grey;
 }
 
 .AppleHome{
@@ -53,4 +72,10 @@ h1{
   height: 30px;
   margin: auto;
   font-size: 25px;
+}
+
+.iPadPromain{
+  width:50%;
+  display: block;
+  margin-left: 50%;
 }
