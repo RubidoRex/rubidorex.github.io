@@ -8,13 +8,13 @@ h1{
 }
 
 .fade-in-bottom {
-	-webkit-animation: fade-in-bottom 1s cubic-bezier(0.075, 0.820, 0.165, 1.000) 2s both;
-	        animation: fade-in-bottom 1s cubic-bezier(0.075, 0.820, 0.165, 1.000) 2s both;
+	-webkit-animation: fade-in-bottom 1s cubic-bezier(0.075, 0.820, 0.165, 1.000) 1s both;
+	        animation: fade-in-bottom 1s cubic-bezier(0.075, 0.820, 0.165, 1.000) 1s both;
 }
 
 .shake-vertical {
-	-webkit-animation: shake-vertical 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) 2s infinite both;
-	        animation: shake-vertical 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) 2s infinite both;
+	-webkit-animation: shake-vertical 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1s infinite both;
+	        animation: shake-vertical 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1s infinite both;
 }
 
 .slide-in-blurred-bottom {
@@ -227,7 +227,7 @@ h1{
   background: #FFFFFF;
   padding: 20px; 
   width: 90%;
-  height: 90vh;
+  height: 80vh;
   margin: auto;
   text-align: center;
   filter: drop-shadow(0rem 0.5rem 0.5rem #E5E5E5);
@@ -249,7 +249,7 @@ h1{
 }
 
 .iPadPromain2{
-  margin-top: 6vh;
+  margin-top: 5vh;
   width:50%;
   margin-left: -60vh;
 }
