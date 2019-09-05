@@ -7,8 +7,149 @@ h1{
   
 }
 
+.fade-in-bottom {
+	-webkit-animation: fade-in-bottom 1s cubic-bezier(0.075, 0.820, 0.165, 1.000) 2s both;
+	        animation: fade-in-bottom 1s cubic-bezier(0.075, 0.820, 0.165, 1.000) 2s both;
+}
+
+.shake-vertical {
+	-webkit-animation: shake-vertical 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) 2s infinite both;
+	        animation: shake-vertical 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) 2s infinite both;
+}
+
+.slide-in-blurred-bottom {
+	-webkit-animation: slide-in-blurred-bottom 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: slide-in-blurred-bottom 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes shake-vertical {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateY(8px);
+            transform: translateY(8px);
+  }
+  80% {
+    -webkit-transform: translateY(6.4px);
+            transform: translateY(6.4px);
+  }
+  90% {
+    -webkit-transform: translateY(-6.4px);
+            transform: translateY(-6.4px);
+  }
+}
+@keyframes shake-vertical {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateY(8px);
+            transform: translateY(8px);
+  }
+  80% {
+    -webkit-transform: translateY(6.4px);
+            transform: translateY(6.4px);
+  }
+  90% {
+    -webkit-transform: translateY(-6.4px);
+            transform: translateY(-6.4px);
+  }
+}
+
+@-webkit-keyframes slide-in-blurred-bottom {
+  0% {
+    -webkit-transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+            transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+            transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-blurred-bottom {
+  0% {
+    -webkit-transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+            transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+            transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+
+
+
 .title{
-  margin-top: -550px;
+  margin-top: -70vh;
   margin-left: 10%;
   font-size: 100px;
 }
@@ -22,7 +163,7 @@ h1{
 
 .arrowdown{
   margin-left: 17%;
-  font-size: 30px;
+  font-size: 35px;
   color: grey;
 }
 
@@ -79,3 +220,38 @@ h1{
   display: block;
   margin-left: 50%;
 }
+
+
+.div2{
+  border-radius: 15px;
+  background: #FFFFFF;
+  padding: 20px; 
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  text-align: center;
+  filter: drop-shadow(0rem 0.5rem 0.5rem #E5E5E5);
+}
+
+.sec1{
+  position: absolute;
+  margin-top: -75vh;
+  margin-left: 48vw;
+  font-size: 50px;
+  width: 550px;
+  text-align: left;
+}
+
+.h2{
+  margin-top: -55vh;
+  color: #565656;
+  font-size: 45px;
+}
+
+.iPadPromain2{
+  margin-top: 6vh;
+  width:50%;
+  margin-left: -60vh;
+}
+
+
