@@ -18,8 +18,8 @@ html{
 }
 
 .slide-in-blurred-bottom {
-	-webkit-animation: slide-in-blurred-bottom 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1s both;
-	        animation: slide-in-blurred-bottom 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1s both;
+	-webkit-animation: slide-in-blurred-bottom 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.5s both;
+	        animation: slide-in-blurred-bottom 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.5s both;
 }
 
 .text-pop-up-tr {
@@ -200,8 +200,9 @@ html{
 
 .arrowdown{
   margin-left: 17%;
-  font-size: 35px;
-  color: grey;
+  margin-top: 10px;
+  width: 40px;
+  fill: grey;
 }
 
 .AppleHome{
