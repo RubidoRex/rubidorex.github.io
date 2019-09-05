@@ -1,6 +1,11 @@
 html{
   background-color: #fafafa;
   font-family: helvetica;
+  width: 100%;
+}
+
+body{
+
 }
 
 h1{
@@ -15,7 +20,8 @@ a{
 }
 
 .h1mini{
-  margin-right: -43%;
+  width: 300px;
+  margin-left: 59.7%;
   margin-top:-23%;
 }
 

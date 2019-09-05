@@ -18,10 +18,14 @@ h1{
 }
 
 .slide-in-blurred-bottom {
-	-webkit-animation: slide-in-blurred-bottom 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-	        animation: slide-in-blurred-bottom 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	-webkit-animation: slide-in-blurred-bottom 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1s both;
+	        animation: slide-in-blurred-bottom 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1s both;
 }
 
+.text-pop-up-tr {
+	-webkit-animation: text-pop-up-tr 0.5s cubic-bezier(0.075, 0.820, 0.165, 1.000) 1s both;
+	        animation: text-pop-up-tr 0.5s cubic-bezier(0.075, 0.820, 0.165, 1.000) 1s both;
+}
 
 @-webkit-keyframes fade-in-bottom {
   0% {
@@ -146,6 +150,39 @@ h1{
   }
 }
 
+ @-webkit-keyframes text-pop-up-tr {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+            transform: translateY(0) translateX(0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px) translateX(50px);
+            transform: translateY(-50px) translateX(50px);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+@keyframes text-pop-up-tr {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+            transform: translateY(0) translateX(0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px) translateX(50px);
+            transform: translateY(-50px) translateX(50px);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+
 
 
 .title{
@@ -252,6 +289,14 @@ h1{
   margin-top: 5vh;
   width:50%;
   margin-left: -60vh;
+}
+
+.massive{
+  margin-top: -100px;
+  margin-left: -100px;
+  color: white;
+  font-size: 350px;
+  text-align: center;
 }
 
 
