@@ -27,8 +27,8 @@ a{
 }
 
 .text-pop-up-tr {
-	-webkit-animation: text-pop-up-tr 0.5s cubic-bezier(0.075, 0.820, 0.165, 1.000) 0.5s both;
-	        animation: text-pop-up-tr 0.5s cubic-bezier(0.075, 0.820, 0.165, 1.000) 0.5s both;
+	-webkit-animation: text-pop-up-tr 0.5s cubic-bezier(0.075, 0.820, 0.165, 1.000) 1s both;
+	        animation: text-pop-up-tr 0.5s cubic-bezier(0.075, 0.820, 0.165, 1.000) 1s both;
 }
 
 @-webkit-keyframes fade-in-bottom {
@@ -188,8 +188,8 @@ a{
 }
 
 .fade-in {
-	-webkit-animation: fade-in 2s cubic-bezier(0.075, 0.820, 0.165, 1.000) 1s both;
-	        animation: fade-in 2s cubic-bezier(0.075, 0.820, 0.165, 1.000) 1s both;
+	-webkit-animation: fade-in 2s cubic-bezier(0.075, 0.820, 0.165, 1.000) 2s both;
+	        animation: fade-in 2s cubic-bezier(0.075, 0.820, 0.165, 1.000) 2s both;
 }
 
  @-webkit-keyframes fade-in {

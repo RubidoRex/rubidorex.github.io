@@ -36,6 +36,11 @@ a{
 	        animation: slide-in-blurred-right 0.7s cubic-bezier(0.230, 1.000, 0.320, 1.000) 2s both;
 }
 
+.slide-in-blurred-right5 {
+	-webkit-animation: slide-in-blurred-right 0.7s cubic-bezier(0.230, 1.000, 0.320, 1.000) 2.5s both;
+	        animation: slide-in-blurred-right 0.7s cubic-bezier(0.230, 1.000, 0.320, 1.000) 2.5s both;
+}
+
  @-webkit-keyframes slide-in-blurred-right {
   0% {
     -webkit-transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
@@ -78,8 +83,8 @@ a{
 }
 
 .fade-in-bottom {
-	-webkit-animation: fade-in-bottom 2s cubic-bezier(0.075, 0.820, 0.165, 1.000) 2s both;
-	        animation: fade-in-bottom 2s cubic-bezier(0.075, 0.820, 0.165, 1.000) 2s both;
+	-webkit-animation: fade-in-bottom 2s cubic-bezier(0.075, 0.820, 0.165, 1.000) 2.5s both;
+	        animation: fade-in-bottom 2s cubic-bezier(0.075, 0.820, 0.165, 1.000) 2.5s both;
 }
 
  @-webkit-keyframes fade-in-bottom {
@@ -399,7 +404,7 @@ hr{
 
 .purchaseimg{
   height: 60vh;
-  margin-top: -52vh;
+  margin-top: -63vh;
   float: right;
   margin-right: 3vw;
 }
